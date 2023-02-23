@@ -19,7 +19,12 @@ int main(void) {
 	revers(s,strlen(s));// calling the function
 	return 0;
 }
-
+/*
+this is a function to revers a sentence using recursion 
+@args 
+- s is a pointer to string
+- len the length of that string 
+*/
 void revers(char * s,int len)
 {
 	if(len >=0)// this condition to end the recursion
